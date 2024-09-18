@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@sweetalert2/themes": "^5.0.18",
+    "bootstrap": "^5.3.3",
+    "sweetalert2": "^11.12.4"
+  }
+}

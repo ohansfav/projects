@@ -1,0 +1,42 @@
+{
+  "name": "@sweetalert2/themes",
+  "version": "5.0.18",
+  "repository": "sweetalert2/sweetalert2-themes",
+  "homepage": "https://sweetalert2.github.io/",
+  "description": "Themes for SweetAlert2",
+  "peerDependencies": {
+    "sweetalert2": "^11.0.0"
+  },
+  "devDependencies": {
+    "@sweetalert2/stylelint-config": "^3.0.0",
+    "replace-in-file": "^8.0.0",
+    "sass": "^1.56.1",
+    "stylelint": "^16.0.0",
+    "sweetalert2": "^11.5.2",
+    "vite": "^5.0.0",
+    "zx": "^8.0.0"
+  },
+  "author": "Limon Monte (https://limonte.github.io)",
+  "contributors": [
+    "Giuseppe Verni (https://github.com/gverni)",
+    "Morgan Touverey-Quilling <mtouverey@alembic-dev.com> (https://github.com/toverux)",
+    "Joseph Schultz (https://github.com/acupajoe)",
+    "Matthew Francis Brunetti <zenflow87@gmail.com> (https://github.com/zenflow)"
+  ],
+  "keywords": [
+    "sweetalert2",
+    "theme",
+    "themes",
+    "theming",
+    "sass"
+  ],
+  "scripts": {
+    "start": "vite",
+    "build": "NODE_NO_WARNINGS=1 zx tools/build.mjs",
+    "watch": "NODE_NO_WARNINGS=1 zx tools/build.mjs --watch",
+    "lint": "stylelint **/*.scss",
+    "create-new-theme": "zx tools/create-new-theme.mjs"
+  },
+  "bugs": "https://github.com/sweetalert2/sweetalert2-themes/issues",
+  "license": "MIT"
+}
