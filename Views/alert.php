@@ -7,12 +7,16 @@
 
     <?php if (isset($_SESSION['success'])) { ?>
         toastr.success("<?php echo $_SESSION['success']; ?>");
+        //shows if successful 
     <?php } else if (isset($_SESSION['error'])) { ?>
             toastr.error("<?php echo $_SESSION['error']; ?>");
+            //shows if error is detected
     <?php } else if (isset($_SESSION['warning'])) { ?>
                 toastr.warning("<?php echo $_SESSION['warning']; ?>");
+                //shows if warning is detected
     <?php } else if (isset($_SESSION['info'])) { ?>
                     toastr.info("<?php echo $_SESSION['info']; ?>");
+                    //shows if info is detected
     <?php } else if (isset($_SESSION['info_stay'])) { ?>
                         alertInfo("Important information", "<?php echo $_SESSION['info_stay']; ?>");
     <?php } else if (isset($_SESSION['error_stay'])) { ?>
